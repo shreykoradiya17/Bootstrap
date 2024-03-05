@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Webapge-6</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- css -->
+
+  <!-- remix icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css"
+    integrity="sha512-ZH3KB6wI5ADHaLaez5ynrzxR6lAswuNfhlXdcdhxsvOUghvf02zU1dAsOC6JrBTWbkE1WNDNs5Dcfz493fDMhA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- remix icon -->
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font awesome -->
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- fonts -->
+</head>
+
+<body>
+
+  <!-- section1 -->
+  <div class="row section1 m-0 d-flex justify-content-between align-items-center">
+    <div class="col-3 nav1">
+      <img src="images/logo.png" />
+    </div>
+    <div class="col-6 nav2 d-none d-lg-flex">
+      <a href="#">Home</a>
+      <a href="#">World +</a>
+      <a href="#">Business +</a>
+      <a href="#">Health +</a>
+      <a href="#">Politic +</a>
+      <a href="#">Science +</a>
+    </div>
+    <div class="col-3 nav3 justify-content-end justify-content-lg-between">
+      <i class="ri-shopping-cart-2-line d-none d-lg-flex"></i>
+      <i class="ri-twitter-x-line d-none d-lg-flex"></i>
+      <i class="ri-drive-fill d-none d-lg-flex"></i>
+      <i class="ri-youtube-fill d-none d-lg-flex"></i>
+      <i class="ri-menu-line d-flex d-lg-none" style="font-size: 28px" id="menu"></i>
+    </div>
+  </div>
+  <!-- section1 -->
+
+  <!-- mobile menu -->
+  <div class="row mobilemenu d-lg-none m-0" id="mm">
+    <div class="col-12 d-flex flex-column">
+      <a href="#" id="active">Home</a>
+      <a href="#">World +</a>
+      <a href="#">Business +</a>
+      <a href="#">Health +</a>
+      <a href="#">Politic +</a>
+      <a href="#">Science +</a>
+    </div>
+  </div>
+  <!-- mobile menu -->
+
+  <!-- section2 -->
+  <div class="row section2 m-0 d-block">
+    <div class="col-12">
+      <button class="b1">World</button>
+      <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+    </div>
+    <div class="col-12">
+      <h1>
+        At Value-Focused hotels, the free <br />
+        breakfast gets bigger
+      </h1>
+      <span>My visual universe is surrealistic, colorful and dark at the same
+        time.</span>
+    </div>
+    <div class="col-12 d-flex">
+      <img src="images/card.jpg" />
+      <p>Post by : Lucas Bennett</p>
+    </div>
+    <div class="col-12 borders2 d-none d-lg-block"></div>
+    <div class="col-12 borders3 d-block d-lg-none"></div>
+  </div>
+  <!-- section2 -->
+
+  <!-- section3 -->
+  <div class="row section3 m-0">
+    <div class="col-12 col-lg-9 s3-col-1">
+      <div class="row">
+        <div class="col-12">
+          <a href="#">Trending</a>
+        </div>
+        <div class="col-12">
+          <div class="row m-0 p-0">
+            <div class="col-12">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg s3bg1 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg s3bg2 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1" id="ye">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg s3bg3 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1" id="ye1">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg s3bg4 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1" id="ye2">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mb-5">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg s3bg5 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3 s3-col-2">
+      <div class="row">
+        <div class="col-12 s3-1">
+          <input type="search" placeholder="search..." />
+        </div>
+        <div class="col-12 d-flex s3-2 justify-content-between">
+          <div>
+            <h1>New York</h1>
+            <p>Sunny</p>
+          </div>
+          <div>
+            <i class="ri-compass-2-line"></i>
+          </div>
+        </div>
+        <div class="col-12 s3-3 d-flex align-items-center">
+          <i class="ri-sun-foggy-line"></i>
+          <p>14<i class="ri-celsius-line"></i></p>
+        </div>
+        <div class="col-12 s3-4">
+          <div class="div d-flex justify-content-between">
+            <div class="d-flex">
+              <i class="ri-cloud-windy-line"></i>
+              <p>10%</p>
+            </div>
+            <div class="d-flex">
+              <i class="ri-windy-line"></i>
+              <p>4.1kmh</p>
+            </div>
+            <div class="d-flex">
+              <i class="ri-sun-cloudy-line"></i>
+              <p>4.1kmh</p>
+            </div>
+          </div>
+          <div class="d-flex s3line justify-content-between">
+            <div>
+              <h1>MON</h1>
+              <p>13</p>
+            </div>
+            <div>
+              <h1>TUE</h1>
+              <p>11</p>
+            </div>
+            <div>
+              <h1>WED</h1>
+              <p>7</p>
+            </div>
+            <div>
+              <h1>THU</h1>
+              <p>4</p>
+            </div>
+            <div>
+              <h1>FRI</h1>
+              <p>1</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 s3-5">
+          <div><a href="#">Categories</a></div>
+          <div class="d-flex justify-content-between s3mr1 s3mr">
+            <h2>World</h2>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+          <div class="d-flex justify-content-between s3mr">
+            <h2>Business</h2>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+          <div class="d-flex justify-content-between s3mr">
+            <h2>Health</h2>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+          <div class="d-flex justify-content-between s3mr">
+            <h2>Politic</h2>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+          <div class="d-flex justify-content-between s3mr">
+            <h2>Science</h2>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 border3"></div>
+  </div>
+  <!-- section3 -->
+
+  <!-- section4 -->
+  <div class="row section4 m-0">
+    <div class="col-12">
+      <a href="#">Health</a>
+    </div>
+    <div class="col-12 p-0">
+      <div class="row m-0 p-0">
+        <div class="col-12 col-md-6 col-lg-3 mt-5 s4bg">
+          <div class="s4bg1">
+            <button class="b1">Health</button>
+            <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+          </div>
+          <p>Childhood survivors and later health researches</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-5 s4bg">
+          <div class="s4bg2">
+            <button class="b1">Health</button>
+            <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+          </div>
+          <p>Listeria prompts recall of Ruth’s pimento cheese</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-5 s4bg">
+          <div class="s4bg3">
+            <button class="b1">Health</button>
+            <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+          </div>
+          <p>Health service prescribes mindfulness For Anxiety and Depression</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-5 s4bg">
+          <div class="s4bg4">
+            <button class="b1">Health</button>
+            <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+          </div>
+          <p>How much do you know about Covid-19?</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 border3"></div>
+  </div>
+  <!-- section4 -->
+
+  <!-- section5 -->
+  <div class="row section3 m-0">
+    <div class="col-12 col-lg-9 s3-col-1 mt-4" style="height: 500px;">
+      <div class="row">
+        <div class="col-12">
+          <a href="#">Trending</a>
+        </div>
+        <div class="col-12">
+          <div class="row m-0 p-0">
+            <div class="col-12">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg11 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg22 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1" id="ye">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg33 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5 ">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1" id="ye1">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg44 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1" id="ye2">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mb-5">
+              <div class="row m-0 p-0 d-flex justify-content-between">
+                <div class="col-12 col-md-6 s3bg55 mt-5"></div>
+                <div class="col-12 col-md-6 d-flex flex-column mt-5">
+                  <div class="row ps-2 m-0 ">
+                    <button class="b1">World</button>
+                    <button class="b2">
+                      <i class="ri-timer-2-line"></i> Mar 3, 2021
+                    </button>
+                  </div>
+                  <div class="row s3p1h p-0 m-0">
+                    <h1>A journey through nature's untoched beauty</h1>
+                    <p>
+                      My visual universe is surrealistic, colorful and dark
+                      at the same time
+                    </p>
+                    <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-3 s3-col-2 mt-4">
+      <div class="row">
+        <div class="col-12 margin">
+          <a href="#">Authors</a>
+        </div>
+        <div class="col-12 bb mt-2">
+          <img src="images/o1.jpg">
+          <p>Ava Sullivan</p>
+        </div>
+        <div class="col-12 bb">
+          <img src="images/o2.jpg">
+          <p>Adrian Martinez</p>
+        </div>
+        <div class="col-12 bb">
+          <img src="images/o3.jpg">
+          <p>Ethan Reynolds</p>
+        </div>
+        <div class="col-12 bb" style="border: none;">
+          <img src="images/o4.jpg">
+          <p>Lucas Bennett</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 border3"></div>
+  </div>
+  <!-- section5 -->
+
+  <!-- section6 -->
+  <div class="row section4 m-0">
+    <div class="col-12 mb-4">
+      <a href="#">Health</a>
+    </div>
+    <div class="col-12 p-0">
+      <div class="row m-0 p-0">
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-12 col-lg-6 mt-3 s4bg">
+              <div class="s4bg1">
+                <button class="b1">Health</button>
+                <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+              </div>
+              <p>Childhood survivors and later health researches</p>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 s4bg">
+              <div class="s4bg2">
+                <button class="b1">Health</button>
+                <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+              </div>
+              <p>Listeria prompts recall of Ruth’s pimento cheese</p>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 s4bg">
+              <div class="s4bg3">
+                <button class="b1">Health</button>
+                <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+              </div>
+              <p>Health service prescribes mindfulness For Anxiety and Depression</p>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 s4bg">
+              <div class="s4bg4">
+                <button class="b1">Health</button>
+                <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+              </div>
+              <p>How much do you know about Covid-19?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row m-0 p-0">
+            <div class="col-12">
+              <div class="row s6bg ms-0 mt-3 p-0">
+
+              </div>
+              <div class="row">
+                <div class="row ps-2 ms-0 mt-5 d-flex">
+                  <button class="b1" id="ye">World</button>
+                  <button class="b2 ms-2" style="width: 120px;">
+                    <i class="ri-timer-2-line"></i> Mar 3, 2021
+                  </button>
+                </div>
+                <div class="row s3p1h mt-4 p-0 m-0 text-white">
+                  <h1>A journey through nature's untoched beauty</h1>
+                  <p>
+                    My visual universe is surrealistic, colorful and dark
+                    at the same time
+                  </p>
+                  <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 border3"></div>
+  </div>
+  <!-- section6 -->
+
+  <!-- section6 -->
+  <div class="row section4 m-0">
+    <div class="col-12 mb-4">
+      <a href="#">Health</a>
+    </div>
+    <div class="col-12 p-0">
+      <div class="row m-0 p-0">
+
+        <div class="col-12 col-lg-6">
+          <div class="row m-0 p-0">
+            <div class="col-12">
+              <div class="row s61bg ms-0 mt-3 p-0">
+
+              </div>
+              <div class="row">
+                <div class="row ps-2 ms-0 mt-5 d-flex">
+                  <button class="b1" id="ye">World</button>
+                  <button class="b2 ms-2" style="width: 120px;">
+                    <i class="ri-timer-2-line"></i> Mar 3, 2021
+                  </button>
+                </div>
+                <div class="row s3p1h mt-4 p-0 m-0 text-white">
+                  <h1>A journey through nature's untoched beauty</h1>
+                  <p>
+                    My visual universe is surrealistic, colorful and dark
+                    at the same time
+                  </p>
+                  <h6>Read More <i class="ri-arrow-right-line"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <div class="col-12 col-lg-6 mt-3 s4bg">
+              <div class="s4bg3">
+                <button class="b1">Health</button>
+                <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+              </div>
+              <p>Health service prescribes mindfulness For Anxiety and Depression</p>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 s4bg">
+              <div class="s4bg4">
+                <button class="b1">Health</button>
+                <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+              </div>
+              <p>How much do you know about Covid-19?</p>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 s4bg">
+              <div class="s4bg1">
+                <button class="b1">Health</button>
+                <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+              </div>
+              <p>Childhood survivors and later health researches</p>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 s4bg">
+              <div class="s4bg2">
+                <button class="b1">Health</button>
+                <button class="b2"><i class="ri-timer-2-line"></i> Mar 3, 2021</button>
+              </div>
+              <p>Listeria prompts recall of Ruth’s pimento cheese</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 border3"></div>
+  </div>
+  <!-- section6 -->
+
+  <!-- section7 -->
+  <div class="row section7 m-0 d-flex justify-content-center">
+    <h1>Follow us — @osaka</h1>
+    <div class="col-6 col-md-2 mt-3">
+      <img src="images/i1.jpg">
+    </div>
+    <div class="col-6 col-md-2 mt-3">
+      <img src="images/i2.jpg">
+    </div>
+    <div class="col-6 col-md-2 mt-3">
+      <img src="images/i3.jpg">
+    </div>
+    <div class="col-6 col-md-2 mt-3">
+      <img src="images/i5.jpg">
+    </div>
+    <div class="col-12 col-md-2 mt-3">
+      <img src="images/i4.jpg">
+    </div>
+  </div>
+  <!-- section7 -->
+
+  <!-- section8 -->
+  <div class="row section8 m-0 d-flex justify-content-center">
+    <div class="col-6 col-lg-2 d-none d-lg-block mt-4">
+      <img src="images/logo.png">
+    </div>
+    <div class="col-12 col-lg-2 d-flex flex-column mt-4">
+      <a href="#" class="ada">Categories</a>
+      <a href="#">Home</a>
+      <a href="#">World +</a>
+      <a href="#">Business +</a>
+      <a href="#">Politic +</a>
+      <a href="#">Science +</a>
+    </div>
+    <div class="col-12 col-lg-3 mt-4">
+      <a href="#" class="ada">Helpful Link</a>
+      <p>Home About Pricing Style Guide Licensing Contact</p>
+    </div>
+    <div class="col-6 col-lg-4 d-none d-lg-block mt-4">
+      <a href="#" class="ada">Subscribe</a>
+      <div class="lastf d-flex justify-content-between">
+        <input type="text" placeholder="Enter your email...">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <div class="col-12 border3 p-0" style="border-bottom: 0px;border-left: 0px;border-right: 0px;">
+      <h3>© copyright 2023 | webpage created by SHREY KORADIYA</h3>
+    </div>
+
+  </div>
+  <!-- section8 -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- jquery -->
+
+<!-- script file -->
+<script src="script.js"></script>
+<!-- script file -->
+
+</html>
